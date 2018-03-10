@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:background="@color/white"
+    tools:context="com.pictovie.beta.pictovie.LoginScreen">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:scaleWidth="120%"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        >
+        <EditText
+            android:id="@+id/email"
+            android:backgroundTint="#D1D3D4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:inputType="textCapWords"
+            android:text="Email"
+            android:paddingLeft="30dp"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="459dp"
+            android:textColor="#D1D3D4"
+            android:maxLines="1"
+            android:textColorHint="#D1D3D4"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="448dp"
+            android:layout_height="1dp"
+            android:background="#d1d3d4" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="492dp"
+            android:layout_height="1dp"
+            android:background="#d1d3d4" />
+        <View
+            android:layout_width="600dp"
+            android:layout_marginTop="532dp"
+            android:layout_height="1dp"
+            android:background="#d1d3d4" />
+        <EditText
+            android:id="@+id/password"
+            android:backgroundTint="#D1D3D4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:layout_marginTop="489dp"
+            android:textColor="#D1D3D4"
+            android:background="@android:color/transparent"
+            android:text="Password"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:textColorHint="#D1D3D4"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="310dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="8pt"
+            android:textColor="#00dbde"
+            android:text="LOGIN"/>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_marginLeft="260dp"
+            android:layout_marginBottom="250dp"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:layout_height="fill_parent"
+            android:text="SIGN UP"
+            android:textColor="#939598"
+            android:textSize="8pt"
+            />
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_marginTop="578dp"
+            android:singleLine="true"
+            android:text="Login"
+            style="?android:attr/buttonStyleSmall"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textColor="@color/white"
+            android:background="#00dbde"
+            />
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:src="@mipmap/logo"
+            android:tint="@color/blue"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="65dp"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            tools:layout_editor_absoluteY="38dp"
+            tools:layout_editor_absoluteX="0dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Pictovie"
+        android:paddingTop="105dp"
+        android:paddingLeft="65dp"
+        android:gravity="center"
+        android:textSize="13pt"
+        android:textColor="#939598"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PICTOVIE"
+        android:paddingTop="285dp"
+        android:paddingLeft="145dp"
+        android:color="#2F4F4F"
+        android:gravity="center"
+        android:textSize="13pt"
+        android:textColor="#939598"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:paddingLeft="50dp"
+        android:layout_height="wrap_content"
+        android:text="Keep your memories alive and let other have"
+        android:gravity="center"
+        android:textSize="7pt"
+        android:textColor="#939598"
+        android:paddingTop="347dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingLeft="130dp"
+        android:layout_height="wrap_content"
+        android:text="a taste of your journey"
+        android:gravity="center"
+        android:textSize="7pt"
+        android:textColor="#939598"
+        android:paddingTop="367dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

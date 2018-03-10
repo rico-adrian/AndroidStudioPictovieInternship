@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:color="@color/white"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.pictovie.beta.pictovie.HomePage">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scaleWidth="120%"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!-- The navigation drawer -->
+        <ListView android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:background="@color/white"/>
+        <ImageView
+            android:src="@mipmap/user02"
+            android:scaleWidth="150%"
+            android:adjustViewBounds="true"
+            android:layout_width="70dp"
+            android:maxWidth="650dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:scaleType="fitStart"
+            />
+        <TextView
+            android:id="@+id/twosecago"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#d1d3d4"
+            android:paddingLeft="60dp"
+            android:text="2sec ago"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/liked"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#00dbde"
+            android:paddingLeft="60dp"
+            android:text="~Jason Michael liked your story"
+            android:layout_marginTop="60dp"/>
+        <ImageView
+            android:src="@mipmap/user04"
+            android:scaleWidth="150%"
+            android:adjustViewBounds="true"
+            android:layout_width="70dp"
+            android:maxWidth="650dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="28dp"
+            android:scaleType="fitStart"
+            />
+        <TextView
+            android:id="@+id/threesecago"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#d1d3d4"
+            android:paddingLeft="60dp"
+            android:text="3sec ago"
+            android:layout_marginTop="130dp"/>
+        <TextView
+            android:id="@+id/uploaded"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#00dbde"
+            android:paddingLeft="60dp"
+            android:text="~Peter Andrews uploaded 6 new stories"
+            android:layout_marginTop="160dp"/>
+        <ImageView
+            android:src="@mipmap/pic10"
+            android:scaleWidth="150%"
+            android:layout_marginLeft="28dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="200dp"
+            android:layout_width="110dp"
+            android:layout_height="95dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"
+            />
+        <ImageView
+            android:src="@mipmap/pic09"
+            android:scaleWidth="150%"
+            android:layout_marginLeft="149dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="200dp"
+            android:layout_width="110dp"
+            android:layout_height="95dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"
+            />
+        <ImageView
+            android:src="@mipmap/pic11"
+            android:scaleWidth="150%"
+            android:layout_marginLeft="270dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="200dp"
+            android:layout_width="110dp"
+            android:layout_height="95dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"
+            />
+        <ImageView
+            android:src="@mipmap/user05"
+            android:scaleWidth="150%"
+            android:adjustViewBounds="true"
+            android:layout_width="70dp"
+            android:maxWidth="650dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="28dp"
+            android:scaleType="fitStart"
+            />
+        <TextView
+            android:id="@+id/oneminago"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#d1d3d4"
+            android:paddingLeft="60dp"
+            android:text="1 min ago"
+            android:layout_marginTop="330dp"/>
+        <TextView
+            android:id="@+id/added"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.8pt"
+            android:textColor="#00dbde"
+            android:paddingLeft="60dp"
+            android:text="~Johan Brown added you as a collaborator in his Video"
+            android:layout_marginTop="358dp"/>
+        <ImageView
+        android:src="@mipmap/user03"
+        android:scaleWidth="150%"
+        android:adjustViewBounds="true"
+        android:layout_width="70dp"
+        android:maxWidth="650dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="28dp"
+        android:scaleType="fitStart"
+        />
+        <TextView
+            android:id="@+id/fiveminago"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#d1d3d4"
+            android:paddingLeft="60dp"
+            android:text="5 min ago"
+            android:layout_marginTop="420dp"/>
+        <TextView
+            android:id="@+id/commented"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#00dbde"
+            android:paddingLeft="60dp"
+            android:text="~Michelle Patrick commented on your story"
+            android:layout_marginTop="450dp"/>
+        <ImageView
+            android:src="@mipmap/user06"
+            android:scaleWidth="150%"
+            android:adjustViewBounds="true"
+            android:layout_width="70dp"
+            android:maxWidth="650dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="28dp"
+            android:scaleType="fitStart"
+            />
+        <TextView
+            android:id="@+id/tenminago"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#d1d3d4"
+            android:paddingLeft="60dp"
+            android:text="10 min ago"
+            android:layout_marginTop="510dp"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="105dp"
+            android:layout_height="1dp"
+            android:background="#d1d3d4" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="310dp"
+            android:layout_height="1dp"
+            android:background="#d1d3d4" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_height="1dp"
+            android:background="#d1d3d4" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="490dp"
+            android:layout_height="1dp"
+            android:background="#d1d3d4" />
+        <TextView
+            android:id="@+id/uploadedd"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6.5pt"
+            android:textColor="#00dbde"
+            android:paddingLeft="60dp"
+            android:text="~Bonnie Johnson uploaded 3 new stories"
+            android:layout_marginTop="540dp"/>
+
+        <ImageView
+            android:src="@mipmap/pic04"
+            android:scaleWidth="150%"
+            android:layout_marginLeft="28dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="580dp"
+            android:layout_width="110dp"
+            android:layout_height="105dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"
+            />
+        <ImageView
+            android:src="@mipmap/pic07"
+            android:scaleWidth="150%"
+            android:layout_marginLeft="149dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="580dp"
+            android:layout_width="110dp"
+            android:layout_height="105dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"
+            />
+        <ImageView
+            android:src="@mipmap/pic08"
+            android:scaleWidth="150%"
+            android:layout_marginLeft="270dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="580dp"
+            android:layout_width="110dp"
+            android:layout_height="105dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"
+            />
+    </RelativeLayout>
+</ScrollView>
+    <SlidingDrawer
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:handle="@+id/handle"
+        android:content="@+id/content">
+
+        <ImageView
+            android:id="@id/handle"
+            android:layout_width="88dip"
+            android:layout_height="44dip" />
+
+        <GridView
+            android:id="@id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </SlidingDrawer>
+
+</android.support.constraint.ConstraintLayout>

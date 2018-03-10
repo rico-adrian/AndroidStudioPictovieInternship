@@ -1,0 +1,12 @@
+{ "Employee" :
+[
+  {"text":"helloworld",
+    "name":"rico",
+    "salary":"50000"},
+  {"text":"helloworld22",
+    "name":"asdsdsagd",
+    "salary":"60000"},
+  {"text":"helloworld33",
+    "name":"asdsdsagdasv",
+    "salary":"600000"}
+] }

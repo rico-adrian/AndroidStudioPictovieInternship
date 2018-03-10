@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Profile"
+    android:background="@color/blue"
+    android:windowBackground="@color/blue">
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/blue"
+        android:windowBackground="@color/blue"
+        android:text="Home"
+        android:textSize="12pt"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/white"
+        />
+    <ImageView
+        android:id="@+id/sidebar"
+        android:src="@mipmap/sidebar"
+        android:scaleWidth="100%"
+        android:color="@color/white"
+        android:layout_width="35dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitStart"
+        android:layout_height="match_parent"
+        />
+    <ImageView
+        android:id="@+id/plus"
+        android:src="@mipmap/plus"
+        android:scaleWidth="100%"
+        android:color="@color/white"
+        android:layout_width="23dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="350dp"
+        android:scaleType="fitEnd"
+        android:layout_height="match_parent"
+        />
+</RelativeLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:layout_height="15dp"
+    android:layout_width="15dp"
+    android:background="@color/blue"
+    android:paddingBottom="22dp"
+    android:elevation="2dp"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
